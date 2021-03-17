@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><title>SELECTORS</title>
+	<style type="text/css">
+	body table{
+	background-color:pink;
+}
+dl > dd{
+	color:blue;
+}
+dl + h1{
+	background-color:skyblue;
+}
+h1 ~ p{
+	color:purple;
+}
+</style>
+	</head>
+	<body bgcolor="#AAAA"><i>
+		<h1><u>Combinater selector:</u></h1>
+		<p>A combinator is something that explains the relationship between the selectors.</p>
+		<p>A CSS selector can contain more than one simple selector.Between the simple selectors,we can include a combinator.</p>
+		<ul>
+			There are four diffrent combinators in CSS:
+			<li>Descendant selector(space)</li>
+			<li>Child selector(>)</li>
+			<li>Adjacent sibling selector(+)</li>
+			<li>General sibling selector(~)</li>
+		</ul>
+<dl>
+	<dt>Descendant Selector:</dt>
+	<dd>The descendant selector matches all elements that are descendants of a specified element.</dd>
+	<dt>Child Selector:</dt>
+	<dd>The child selector selects all elements that are the children of a specified element.</dd>
+	<dt>Adjacent Sibling Selector:</dt>
+	<dd>The adjacent sibling selector is used to select an element that is directly after another specific element.Sibling elements must have the same parent element,and "adjacent" means "immediately following".</dd>
+	<dt>General Sibling Selector:</dt>
+	<dd>The general sibling selector selects all elements that are siblings of a specified element.</dd>
+</dl>
+<h1>All CSS Combinator Selectors:</h1>
+<table border="1">
+	<tr>
+		<th>Selector</th>
+		<th>Example</th>
+		<th>Example description</th>
+	</tr>
+	<tr>
+		<td>element element</td>
+		<td>div p</td>
+		<td>Selects all p elements inside div elements</td>
+	</tr>
+	<tr>
+		<td>element > element</td>
+		<td>div > p</td>
+		<td>Selects all p elements where the parent is a div element</td>
+	</tr>
+	<tr>
+		<td>element + element</td>
+		<td>div + div</td>
+		<td>Selects the first p elements that are placed immediately after div elements</td>
+	</tr>
+	<tr>
+		<td>element1 ~ element2</td>
+		<td>p ~ ul</td>
+		<td>Selects every ul element that are preceded by a p element</td>
+	</tr>
+	</i></body>
+</html>
