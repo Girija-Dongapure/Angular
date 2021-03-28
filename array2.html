@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head><title>JS</title></head>
+	<body><i><b>
+		<h1><u><center>G SHOPPING MALL</center></u></h1>
+		<center><img src="https://theistanbulinsider.com/wp-content/uploads/2011/02/Citys-Shopping-Center-Istanbul.jpg" width="100%" height="40%"/></center>
+		<h2 style="color:blue;"><u>collection of different variety of products:</u></h2>
+		<script type="text/javascript">
+			//creation of object using litterals
+			var bridal={
+				brand:"Fazals",
+				size:"free",
+				color:"red",
+				type:"readymade",
+				beautiful:true,
+				bridalLook:function(wearing){
+					document.write("Bridal look after:",wearing);
+				}
+			}
+			document.write("<br>","Brand of bridal collection is:",bridal.brand);
+			document.write("<br>","Size of bridal collection is:",bridal.size);
+			document.write("<br>","Color of bridal collection is:",bridal.color);
+			document.write("<br>","Type of bridal collection is:",bridal.type);
+			document.write("<br>","Looks of bridal collection is:",bridal.beautiful);
+			bridal.bridalLook("<br>",'dressing')
+			//creation of object using new keyword
+var jogger=new Object();
+			jogger.name="denym";
+			jogger.price=3000;
+			jogger.color="white";
+			jogger.size=26;
+			jogger.looks=function(a){
+				return 'looks:'+a;
+			}
+			document.write("<br>",'Jogger name:'+jogger.name+"<br>",'Jogger price:'+jogger.price+"<br>",'jogger color:'+jogger.color+"<br>",'jogger size:'+jogger.size+"<br>",jogger.looks("cool"));
+			//creation of object using new and constructor
+			function bag(name,brand,color,price,quality){
+				this.name=name;
+				this.brand=brand;
+				this.color=color;
+				this.price=price;
+				this.looks=function(a){
+					return 'looks:'+a;
+					
+				}
+
+			}
+
+			var bags=new bag("sling bag","Allen solly","brown",1500,"very nice");
+			document.write("<br>");
+			document.write("<br>",'Bag name:'+bags.name+"<br>",'Brand:'+bags.brand+"<br>",'Color:'+bags.color+"<br>",'price:'+bags.price+"<br>",bags.looks("Beautiful"));
+			//creation of array using litterals
+			var footware=["Sneakers","Pointed heels","Wedges","Block heels","Heeled boots"];
+			document.write("<br>");
+			document.write("<br>",footware[0]);
+			document.write("<br>",footware[1]);
+			document.write("<br>",footware[2]);
+			document.write("<br>",footware[3]);
+			document.write("<br>",footware[4]);
+
+			//creation of array using new keyword
+			var beauty=new Array();
+			beauty[0]="Lakme";
+			beauty[1]="Mac";
+			beauty[2]="Nykaa";
+			beauty[3]="Loreal";
+			beauty[4]="Maybelline";
+			document.write("<br>");
+			document.write("<br>","BEAUTY PRODUCTS:");
+			document.write("<br>",beauty[0]);
+			document.write("<br>",beauty[1]);
+			document.write("<br>",beauty[2]);
+			document.write("<br>",beauty[3]);
+			document.write("<br>",beauty[4]);
+			//creation of array using new and constructor
+			var models=new Array("Girija","AkshayKumar","KareenaKapoor","Hande ercel","Jamie Dornan","Nick Jonas");
+			document.write("<br>");
+			document.write("<br>","MODELS OF G SHOPPING MALL:");
+			for(var i=0;i<models.length;i++){
+				document.write("<br>",models[i]);
+			}
+			document.write("<br>");
+			document.write('<br>','Added new model at:'+models.push("Priyanka Chopra")+"th position.");
+				models.push('Kriti','Alia')
+				document.write('<br>',models.toString());
+				document.write('<br>','poped model:',models.pop());
+				document.write('<br>',models.toString());
+				
+
+		</script>
+	</b></i></body>
+</html>
