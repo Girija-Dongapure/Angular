@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head><title>JS</title>
+	</head>
+	<body><i><b>
+		<h1><center><u>QUOTES</u></center></h1>
+		<center><img src=https://tse2.mm.bing.net/th?id=OIP.yFIDkYRSJXDkabCQkHDUXwHaEo&pid=Api&P=0&w=50%&h=50%/></center>
+		<script type="text/javascript">
+		var q1="The greatest glory in living lies not in never falling,but in rising every time we fall."
+		document.write("1."+q1)
+		//converting string q1 to object
+		var q1s=new String(q1)
+		document.write("<br> -Type of 1st quote is:"+typeof q1s)
+		document.write("<br> -Length of 1st quote is:"+q1.length)
+		document.write("<br> -Converting 1st quote to uppercase:","<br>"+q1.toUpperCase())
+		var author="-Nelson Mandela"
+		
+		document.write("<br> -Written by:","<br>"+q1.concat(author))
+		document.write("<br>")
+		var q2="Your time is limited,so don't waste it living someone else's life."
+		document.write("<br> 2."+q2)
+		//converting string to number
+		document.write("<br> -convering 2nd quote into number:"+Number(q2))
+		document.write("<br> -Length of the quote is:"+q2.length)
+		document.write("<br>"+q2.padStart(68,"/*")+q2.padEnd(68,"*/"))
+		var q3="Tell me and i forget.teach me and i remember.involve me and i learn."
+		document.write("<br>")
+		document.write("<br> 3."+q3)
+		document.write("<br> -replacing the 3rd quote with new quote:","<br>"+q3.replace("Tell me and i forget.teach me and i remember.involve me and i learn","Life is a succession of lessons which must be lived to be understood"))
+		var q4="QUOTE"
+		document.write("<br>")
+		document.write("<br> -ASCI value of QUOTE is:"+q4.charCodeAt(0)+" "+q4.charCodeAt(1)+" "+q4.charCodeAt(2)+" "+q4.charCodeAt(3)+" "+q4.charCodeAt(4))
+		var b=true
+		document.write("<br> learned things are steps towards the creative things:"+b)
+		//using Math object
+		document.write("<h1>MATH OBJECT</h1>")
+		var input=prompt("select the number  1 or 2 to find square root of that number")
+		
+		if(input==1){
+			document.write("<br>")
+			document.write("<br> 1)squre root of 1 is:"+Math.sqrt(1))
+		}
+		else if(input==2){
+			document.write("<br>")
+			document.write("<br> 1)squre root of 2 is:"+Math.sqrt(2))
+		}
+		
+		
+		var input2=prompt("enter the numbers from 1 to 9 to find max number(enter in correct order)")
+		if(input2==123456789){
+			document.write("<br> 2)Max value in 123456789 is:"+Math.max(1,2,3,4,5,6,7,8,9))
+
+		}
+		var input3=prompt("select ln2 and ln10 to find natural logarithmic value")
+		if(input3=="ln2"){
+			document.write("<br> 3)ln2 value is:"+Math.LN2)
+		}
+		else if(input3=="ln10"){
+			document.write("<br> 3)ln10 value is:"+Math.LN10)
+		}
+		var input4=prompt("enter any one number from the given=4.9,4.7,-4.4 to find the nearest integer of that number")
+		if(input4==4.9){
+			document.write("<br> 4)Nearest integer of 4.9 is:"+Math.round(4.9))
+
+		}
+		else if(input4==4.7){
+			document.write("<br> 4)Nearest integer of 4.7 is:"+Math.round(4.7))
+				}
+		else if(input4==-4.4){
+			document.write("<br> 4)Nearest integer of -4.4 is:"+Math.round(-4.4))
+		}
+		var input5=prompt("enter any one number from the given=4.9,5.7,-2.4 to return the nearest rounded up integer")
+		if(input5==4.9){
+			document.write("<br> 5)Nearest rounded up integer of 4.9 is:"+Math.ceil(4.9))
+
+		}
+		else if(input5==5.7){
+			document.write("<br> 5)Nearest rounded up integer of 5.7 is:"+Math.ceil(5.7))
+				}
+		else if(input5==-2.4){
+			document.write("<br> 5)Nearest rounded up integer of -2.4 is:"+Math.ceil(-2.4))
+		}
+		var input6=prompt("enter any one number from the given=4.9,5.7,-2.4 to return the nearest rounded down integer")
+		if(input6==4.9){
+			document.write("<br> 6)Nearest rounded down integer of 4.9 is:"+Math.floor(4.9))
+
+		}
+		else if(input6==5.7){
+			document.write("<br> 6)Nearest rounded down integer of 5.7 is:"+Math.floor(5.7))
+				}
+		else if(input6==-2.4){
+			document.write("<br> 6)Nearest rounded down integer of -2.4 is:"+Math.floor(-2.4))
+		}
+		var input7=prompt("enter any one number from the given=1.9,2.7,-8.4 to return the integer part of that number")
+		if(input7==1.9){
+			document.write("<br> 7)integer part of 1.9 is:"+Math.trunc(1.9))
+
+		}
+		else if(input7==2.7){
+			document.write("<br> 7)integer part of 2.7 is:"+Math.trunc(2.7))
+				}
+		else if(input7==-8.4){
+			document.write("<br> 7)integer part of -8.4 is:"+Math.trunc(-8.4))
+		}
+		var input8=prompt("choose one from negative,null or positive to return a value")
+		if(input8=="negative"){
+			document.write("<br> 8)for any negative value it returns:"+Math.sign(-4))
+		}
+		else if(input8=="null"){
+			document.write("<br> 8)for null value it returns:"+Math.sign(0))
+		}
+		else if(input8=="positive"){
+			document.write("<br> 8)for any positive value it returns:"+Math.sign(4))
+		}
+		
+		
+		
+
+		
+
+
+
+
+		</script>
+	</b></i></body>
+</html>
