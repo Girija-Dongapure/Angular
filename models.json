@@ -2,7 +2,7 @@
 	"models":[{
 
 		"name":"Girija",
-		"image":"https://cdn.britannica.com/88/8188-050-781079FB/Billions-Dreams-TM-Barbie-production-doll.jpg",
+		"image":"<img src="https://cdn.britannica.com/88/8188-050-781079FB/Billions-Dreams-TM-Barbie-production-doll.jpg">",
 		"cost":1000000,
 		"height":5.5
 	},
