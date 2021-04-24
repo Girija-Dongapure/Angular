@@ -1,0 +1,31 @@
+{
+	"food":[{
+
+		"name":"Pizza",
+		"image":"https://i.ytimg.com/vi/gfi1GC7Lhrg/maxresdefault.jpg",
+		"cost":500,
+		"taste":"full cheesy flavour"
+	},
+	{
+	"name":"Panipuri",
+	"image":"https://tse4.mm.bing.net/th?id=OIP.zNdkblB3kC8lpcNsphOZHQHaE7&pid=Api&P=0&w=277&h=185",
+	"cost":50,
+	"taste":"full tasty"
+},
+{
+	"name":"Burger",
+	"image":"https://tse1.mm.bing.net/th?id=OIP.iagvmwgjiTbxHO_i2ISDGwHaEf&pid=Api&P=0&w=288&h=175",
+	"cost":250,
+	"taste":"spicy taste"
+}
+
+
+
+
+
+	
+
+
+
+	]
+}
